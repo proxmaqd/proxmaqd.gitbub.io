@@ -21,5 +21,9 @@ document.addEventListener('DOMContentLoaded', function() {
         sectionObserver.observe(section);
     });
 });
+function redirectToPage(event) {
+    event.preventDefault();
+    window.location.href = "https://proxmaqd.github.io/contact/";
+}
 
 
